@@ -1,0 +1,26 @@
+.titulo{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100px; 
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+.card{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.scrollable-card {
+    max-height: 350px; 
+    overflow-y: auto;
+}
